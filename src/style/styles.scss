@@ -1,8 +1,16 @@
-$back: beige;
 body {
-  background-image: url("./img/background_image2x.png");
-  background-size: cover;
-  h1 {
-    font-size: 80px;
+  background: $darker;
+  color: $text-color-light;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  &.btn-primary {
+    background-color: $prim-button;
+    border-color: $prim-button;
+    &:hover {
+      background-color: #af8cfa;
+      border-color: #af8cfa;
+    }
   }
 }

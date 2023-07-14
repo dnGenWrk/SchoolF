@@ -1,0 +1,61 @@
+.lp-header {
+  background-image: url("./img/hero/hero-shape-wave-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 786px; // !! Attention here
+  .navbar-toggler {
+    padding: 4px 8px;
+    background-color: $text-color-light;
+    .navbar-toggler-icon {
+      width: 1em;
+      height: 1em;
+    }
+  }
+  .navbar {
+    color: $text-color-light;
+    .logo-wrapper {
+      max-width: 34px;
+      img {
+        width: 100%;
+      }
+    }
+
+    .nav-item {
+      &:hover {
+        background-color: $prim-button;
+        border-radius: 4px;
+      }
+      .dropdown-menu {
+        font-size: 0.8em;
+        .dropdown-item:hover {
+          background-color: $prim-button;
+        }
+      }
+    }
+
+    .offcanvas {
+      .nav-link {
+        color: $text-color-light;
+      }
+    }
+  }
+
+  .small-top-cap {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: $general-bottom-margin;
+  }
+  .heading-1 {
+    font-weight: 500;
+    margin-bottom: $general-bottom-margin;
+  }
+  .subheader {
+    margin-bottom: $general-bottom-margin;
+  }
+  .btn {
+    &.btn-outline-secondary {
+      border-color: $text-color-light;
+      color: $text-color-light;
+    }
+  }
+}
