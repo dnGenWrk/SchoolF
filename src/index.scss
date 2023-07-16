@@ -1,4 +1,9 @@
-@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
 @import "style/variables.scss";
+@import "style/_map-amends.scss";
+@import "~bootstrap/scss/bootstrap";
 @import "style/styles.scss";
 @import "style/header.scss";
+@import "style/hero-after-features.scss";

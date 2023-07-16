@@ -4,3 +4,9 @@ $text-color-dark: #737373;
 $text-color-darker: #252b42;
 $prim-button: #8d5cf6;
 $general-bottom-margin: 35px;
+
+:root {
+  @each $spacer, $value in $spacers {
+    --theme-spacer-#{$spacer}: #{$value};
+  }
+}

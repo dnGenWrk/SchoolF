@@ -58,4 +58,38 @@
       color: $text-color-light;
     }
   }
+
+  .hero-media-wrapper {
+    img {
+      width: 100%;
+    }
+  }
+  .cstm-shapes {
+    width: 100%;
+    img {
+      position: relative;
+    }
+    .asset-cstm-position {
+      z-index: 1;
+      &.position-1 {
+        right: 0;
+        left: 82%;
+        top: 128px;
+      }
+      &.position-2 {
+        right: 0;
+        left: 57%;
+        top: 362px;
+      }
+      &.position-3 {
+        right: 0;
+        left: 67%;
+        top: 361px;
+      }
+    }
+  }
+  .content-wrap {
+    position: relative;
+    z-index: 2;
+  }
 }
