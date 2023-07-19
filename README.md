@@ -1,3 +1,3 @@
 # SchoolF
 Landing Page SchoolF
-### Webpack, Babel, Sass, PostCss, Image optimization.
+### Webpack, Babel, Bootstrap, Sass, PostCss, Image optimization.
